@@ -209,22 +209,54 @@ footer nav a {
 /* about page css additions */
 .about-head {
     padding:0 2%;
+    border-bottom: 1px dashed black;
 }
-.dotted-line {
+/* images and information */
+.about-blocks1{
+    display:flex;
+    padding-bottom 2%;
 }
 
-.about-blocks1 {
-    display:flex;
-    flex-wrap:nowrap;
-    justify-content:center;
-    /* padding:13% */
+.strategy{
+    flex:1;
+    padding:3%;
+    border-bottom: 1px dashed black;
 }
-.about-blocks img {
-height:200px;
-width:300px;
+
+.how-we-work{
+    flex:1;
+    padding:3%;
+    border-bottom: 1px dashed black;
+    
 }
 .about-blocks2{
     display:flex;
-    flex-wrap:nowrap;s
+    
+}
 
+.places-we-work{
+    flex:1;
+    padding:3%;
+    border-bottom: 1px dashed black;
+    
+}
+
+.collaboration{
+    flex:1;
+    padding:3%;
+    border-bottom: 1px dashed black;
+    
+}
+
+/* button design */
+button {
+    border:2px solid black;
+    border-radius:8px;
+    background-color: white;
+    padding:8px 20px
+
+}
+/* bottom section */
+.bottom{
+    padding: 5% 
 }
