@@ -208,13 +208,21 @@ footer nav a {
 
 /* about page css additions */
 .about-head {
-    padding:0 2%;
+    padding:2%;
     border-bottom: 1px dashed black;
 }
 /* images and information */
+.about-blocks1 h2{
+    padding:3% 0;
+}
+
+.about-blocks2 h2{
+        padding:3% 0;
+}
+
 .about-blocks1{
     display:flex;
-    padding-bottom 2%;
+    padding-bottom:%;
 }
 
 .strategy{
